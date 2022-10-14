@@ -20,7 +20,7 @@ import com.tiger.CrudExampleSpringboot.service.StudentService;
 public class StudentController {
 @Autowired
     private StudentService service;
- 
+ //the code below maps the request to the index page
     @GetMapping("/")
     public String viewHomePage(Model model) 
     {
